@@ -72,11 +72,11 @@ version: '2'
 services:
   redis:
     restart: always
-    image: sameersbn/redis:4.0.9-2
+    image: sameersbn/redis:6.2
     command:
     - --loglevel warning
     volumes:
-    - /tmp/docker/gitlab/redis:/var/lib/redis:Z
+    - /tmp/docker/gitlab/redis:/data:Z
 
   postgresql:
     restart: always
@@ -174,6 +174,7 @@ services:
     - OAUTH_GITLAB_APP_SECRET=
     - OAUTH_BITBUCKET_API_KEY=
     - OAUTH_BITBUCKET_APP_SECRET=
+    - OAUTH_BITBUCKET_URL=
     - OAUTH_SAML_ASSERTION_CONSUMER_SERVICE_URL=
     - OAUTH_SAML_IDP_CERT_FINGERPRINT=
     - OAUTH_SAML_IDP_SSO_TARGET_URL=

@@ -3,29 +3,148 @@
 This file only reflects the changes that are made in this image. Please refer to the upstream GitLab [CHANGELOG](
 https://gitlab.com/gitlab-org/gitlab-foss/blob/master/CHANGELOG.md) for the list of changes in GitLab.
 
-**13.8.3-1**
+**14.0.1**
+- gitlab: upgrade CE to v14.0.1
+- gitaly: upgrade to v14.0.1
+
+**14.0.0**
+- gitlab: upgrade CE to v14.0.0
+- gitaly: upgrade to v14.0.0
+- gitlab-shell: upgrade to v13.19.0
+- gitlab-pages: upgrade to v1.40.0
+
+**13.12.5**
+- gitlab: upgrade CE to v13.12.5
+- gitaly: upgrade to v13.12.5
+- ubuntu: upgrade to focal-20210609
+
+**13.12.4**
+- gitlab: upgrade CE to v13.12.4
+- gitaly: upgrade to v13.12.4
+
+**13.12.3**
+- gitlab: upgrade CE to v13.12.3
+- gitaly: upgrade to v13.12.3
+- golang: upgrade to v1.16.5
+
+**13.12.2**
+- gitlab: upgrade CE to v13.12.2
+- gitaly: upgrade to v13.12.2
+
+**13.12.1**
+- gitlab: upgrade CE to v13.12.1
+- gitaly: upgrade to v13.12.1
+
+**13.12.0**
+- gitlab: upgrade CE to v13.12.0
+- gitlab-shell: upgrade to v13.18.0
+- gitlab-pages: upgrade to v1.39.0
+- gitaly: upgrade to v13.12.0
+
+**13.11.4**
+- gitlab: upgrade CE to v13.11.4
+- gitaly: upgrade to v13.11.4
+- golang: upgrade to v1.16.4
+- ubuntu: upgrade to focal-20210416
+
+**13.11.3**
+- gitlab: upgrade CE to v13.11.3
+- gitaly: upgrade to v13.11.3
+
+**13.11.2**
+- gitlab: upgrade CE to v13.11.2
+- gitaly: upgrade to v13.11.2
+
+**13.11.1**
+- gitlab: upgrade CE to v13.11.1
+- gitaly: upgrade to v13.11.1
+
+**13.11.0**
+- gitlab: upgrade CE to v13.11.0
+- gitaly: upgrade to v13.11.0
+- gitlab-pages: upgrade to v1.38.0
+- ubuntu: upgrade to focal-20210401
+
+**13.10.3**
+- gitlab: upgrade CE to v13.10.3
+- gitaly: upgrade to v13.10.3
+
+**13.10.2**
+- gitlab: upgrade CE to v13.10.2
+- gitaly: upgrade to v13.10.2
+- golang: upgrade to v1.16.3
+- ubuntu: upgrade to bionic-20210325
+
+**13.10.1**
+- gitlab: upgrade CE to v13.10.1
+- gitaly: upgrade to v13.10.1
+- added libmagic1 to fit requirements of ruby-magic-static-0.3.4 (necessary for puma)
+
+**13.10.0**
+- gitlab: upgrade CE to v13.10.0
+- gitaly: upgrade to v13.10.0
+- gitlab-pages: upgrade to v1.36.0
+
+**13.9.5**
+- gitlab: upgrade CE to v13.9.5
+- gitaly: upgrade to v13.9.5
+
+**13.9.4**
+- gitlab: upgrade CE to v13.9.4
+- gitaly: upgrade to v13.9.4
+- golang: upgrade to v1.16.2
+- ubuntu: upgrade to bionic-20210222
+
+**13.9.3**
+- gitlab: upgrade CE to v13.9.3
+- gitaly: upgrade to v13.9.3
+- gitlab-shell: upgrade to v13.17.0
+
+**13.9.2**
+- gitlab: upgrade CE to v13.9.2
+- gitaly: upgrade to v13.9.2
+- gitlab-workhorse: upgrade to v8.63.2
+
+
+**13.9.1**
+- gitlab: upgrade CE to v13.9.1
+- gitaly: upgrade to v13.9.1
+
+
+**13.9.0**
+- gitlab: upgrade CE to v13.9.0
+- gitaly: upgrade to v13.9.0
+- gitlab-shell: upgrade to v13.16.1
+- gitlab-pages: upgrade to v1.35.0
+- gitlab-workhorse: upgrade to v8.63.0
+- golang: upgrade to v1.16
+
+**13.8.4**
 - added `SSL_PROTOCOLS` option to change protocols of the nginx
 - added `SSL_REGISTRY_CIPHERS`
 - added `SSL_REGISTRY_PROTOCOLS`
 - added `SSL_PAGES_CIPHERS`
 - added `SSL_PAGES_PROTOCOLS`
+- gitlab: upgrade CE to v13.8.4
+- gitaly: upgrade to v13.8.4
+- gitlab-shell: upgrade to v13.15.1
 
 **13.8.3**
 - gitlab: upgrade CE to v13.8.3
-- gitaly: upgrade v13.8.3
+- gitaly: upgrade to v13.8.3
 - golang: upgrade to v1.15.8
 
 **13.8.2**
 - gitlab: upgrade CE to v13.8.2
-- gitaly: upgrade v13.8.2
+- gitaly: upgrade to v13.8.2
 
 **13.8.1**
 - gitlab: upgrade CE to v13.8.1
-- gitaly: upgrade v13.8.1
+- gitaly: upgrade to v13.8.1
 
 **13.8.0**
 - gitlab: upgrade CE to v13.8.0
-- gitaly: upgrade v13.8.0
+- gitaly: upgrade to v13.8.0
 - gitlab-shell: upgrade to v13.15.0
 - gitlab-workhorse: upgrade to v8.59.0
 - gitlab-pages: upgrade to v1.34.0
